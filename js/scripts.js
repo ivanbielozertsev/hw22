@@ -1,10 +1,10 @@
 function counter(number) {
     return {
       increase () {
-        return number += 1;
+        return ++number;
       },
       decrease () {
-        return number -= 1;
+        return --number;
       },
       value () {
         return number;
